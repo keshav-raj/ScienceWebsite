@@ -1,0 +1,295 @@
+body {
+    overflow-x: hidden !important;
+}
+
+.hero {
+    position: relative;
+    height: 880px;
+    background: url("../img/background_bannerr.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.nav-link > i {
+    color: #dd3c0c;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+.navbar-brand {
+
+    padding: 5px 10px !important;
+}
+
+.navbar {
+    background: transparent !important;
+}
+
+.navbar-toggler {
+    background: white;
+}
+
+.heroBanner {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.textDivRed > p {
+    background: #d53724;
+    display: inline-block;
+    padding: 5px 50px;
+    padding-left: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+.BannerText > p {
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.BottomBtn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #ffffff;
+}
+
+.btnDiv {
+    background: url("../img/background.jpg");
+    width: 555px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnDiv > p {
+    font-size: 18px;
+    padding: 40px;
+    font-weight: 500;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.sectionHeading {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.subText {
+    color: #94a9b3;
+}
+
+.listDiv {
+    width: 280px;
+    height: 64px;
+    border-bottom: 1px solid #dee9ee;
+    padding: 25px 5px;
+    margin: 0 auto;
+    transition: .2s all ease-in;
+    cursor: pointer;
+}
+
+.listDiv > p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #132f3e;
+}
+
+.listDiv:hover {
+    color: #ef3b24;
+    border-bottom-color: #ef3b24;
+}
+
+.sText {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.bText {
+    margin: 0;
+    font-size: 76px;
+    font-weight: bold;
+}
+
+.Rseperator {
+    border-right: 1px solid #dee9ee;
+}
+
+.doller {
+    font-size: 25px;
+    font-weight: bolder;
+    vertical-align: super;
+}
+
+.articleHead {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 2px;
+    line-height: 30px;
+}
+
+.articleDetail {
+    font-size: 15px;
+    color: #4d6f80;
+    margin: 20px 5px;
+}
+
+.articleImageDiv > img {
+    margin: 20px 2px;
+}
+
+.readMoreBtn {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #132f3e;
+    display: inline-block;
+    padding: 2px 5px;
+    transition: .2s all ease-out;
+    cursor: pointer;
+}
+
+.readMoreBtn:hover {
+    background: #ecf1f4;
+}
+
+.readMoreBtn:hover > i {
+    color: #de3e26;
+}
+
+.readMoreBtn > i {
+    padding-left: 10px;
+}
+
+.footerWrap {
+    height: 550px;
+    background-color: #061821;
+    position: relative;
+}
+
+.wrapperDiv {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.navList {
+    padding: 0;
+    list-style: none;
+    margin: 20px 2px;
+}
+
+.navList > li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.navList > li > a {
+    color: #ffffff;
+    margin: 20px 2px;
+}
+
+.footerLogoDiv > img {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 20px 2px;
+}
+
+.footerBtn {
+    margin: 20px 2px;
+    border: 1px solid #38463d;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 0 !important;
+}
+.footerBtn:hover {
+
+    color: #ffffff;
+
+}
+
+.FooterSection {
+    background: #061821;
+}
+
+.footerRibbon {
+    background: #061821;
+}
+
+.ribbonText {
+    margin: 0;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+.ribbonText > span > a {
+    color: #ffffff;
+    padding: 2px 10px;
+}
+.Fwrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TopBtn{
+    background: #ef3b24;
+    outline: none;
+    border: 0;
+    color: #ffffff;
+    width: 80px;
+    height: 80px;
+}
+
+@media (max-width: 575.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .btnDiv {
+        width: 250px;
+        height: 75px;
+    }
+
+    .BannerText > p {
+        font-size: 55px;
+    }
+
+    .sectionHeading {
+        font-size: 40px
+    }
+
+    .Rseperator {
+        border-right: 0;
+    }
+
+
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 1000;
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+}
